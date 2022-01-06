@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+import Milklk from "../Images/milklk.png"
 
 const Home =() => {
 
@@ -77,7 +78,7 @@ const Home =() => {
 
                 </div>
                 <div className="bg-amber-400 p-10 pb-20">
-                    <img className=" w-50 pt-20" src='https://uploads-ssl.webflow.com/5f4bcd5217865e26e2333f3d/601bc13e440868c53690bbd7_monitor_1%20-%20downscaled%20BR.png' alt="image" />
+                    <img className=" w-50 pt-20" src={Milklk} alt="mockupmilk" />
                 </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2">
